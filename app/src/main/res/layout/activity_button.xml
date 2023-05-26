@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".button.ButtonActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="ElevatedButton" />
+
+    <LinearLayout
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/safe"
+            android:text="按钮" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="Filled button" />
+
+    <LinearLayout
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/safe"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/safe"
+            android:text="按钮" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="Filled tonal button" />
+
+    <LinearLayout
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/safe"
+            android:text="按钮" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="Outlined button" />
+
+    <LinearLayout
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/safe"
+            android:text="按钮" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="TextButton" />
+
+    <LinearLayout
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/safe"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.TextButton.Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button.TextButton.Dialog.Flush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="Toggle button" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButton"
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?attr/materialButtonOutlinedStyle"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 1" />
+
+        <Button
+            style="?attr/materialButtonOutlinedStyle"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 2" />
+
+        <Button
+            style="?attr/materialButtonOutlinedStyle"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 3" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/home" />
+
+        <Button
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/share" />
+
+        <Button
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/user" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="Icon button" />
+
+    <LinearLayout
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/home"
+            />
+        <Button
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/share"
+            />
+        <Button
+            style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/share"
+            />
+        <Button
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/user"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="textAppearance" />
+
+    <LinearLayout
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.Material3.Button"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮" />
+
+        <Button
+            android:layout_marginStart="10px"
+            style="@style/Widget.Material3.Button"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/safe"
+            android:text="按钮" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
