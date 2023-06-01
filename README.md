@@ -13,8 +13,10 @@
 ## 二、组件示例
 
 1. [Button组件库](app/src/main/java/com/example/mdc_android3sample/button/Button.md)
+2. [TextField](app/src/main/java/com/example/mdc_android3sample/textfield/TextField.md)
+3. [ButtonNavigation](app/src/main/java/com/example/mdc_android3sample/buttonNavigation)
 
 ## 三、公众号
 
-欢迎关注**移动APP开发**公众号，分享更多关于移动开发，Android，Flutter，Kotlin相关内容
+欢迎关注**移动APP开发**公众号，分享更多关于`移动开发`，`Android`，`Flutter`，`Kotlin`,`Vue开发`相关内容。
 ![移动APP开发](APPDep.png)
